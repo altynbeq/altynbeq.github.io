@@ -156,7 +156,7 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Web Developer Intern",
       company_name: "Visotskiy Consulting company",
       icon: meta,
       iconBg: "#E6DEDD",

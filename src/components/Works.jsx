@@ -9,7 +9,7 @@ import { github } from '../assets'
 
 const ProjectCard = ({index, name, description, tags, image , source_code_link}) => (
   <motion.div
-    variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+    // variants={fadeIn("up", "spring", index * 0.5, 0.75)}
   >
     <Tilt
         options={{
@@ -62,14 +62,16 @@ const ProjectCard = ({index, name, description, tags, image , source_code_link})
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div 
+      // variants={textVariant()}
+      >
         <h2 className={styles.heroHeadText}>
           Projects
         </h2>
       </motion.div> 
       <div className='w-full flex'>
         <motion.p 
-          variants={fadeIn("", "", 0.1, 1)}
+          // variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
           I want to emphasize that the projects showcased on this portfolio primarily serve an educational purpose. I undertook these initiatives with the sole intention of honing my skills in web development and furthering my understanding of various technologies. It's crucial to note that the majority of my professional work and projects completed during my employment with different companies are not included in this portfolio.
